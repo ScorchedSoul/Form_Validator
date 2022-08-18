@@ -1,0 +1,141 @@
+/* CSS STYLING */
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@500&family=Mouse+Memoirs&family=Noto+Sans+JP:wght@500&family=Poppins:wght@200&family=Roboto:wght@300;400&family=Rubik+Dirt&family=Ubuntu:wght@300;400&display=swap');
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    all: none;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    font-family: Roboto , sans-serif;
+
+    width: 100%;
+    height: 100vh;
+
+    /* background: linear-gradient(to right, rgb(33, 241, 217) , rgb(56, 170, 241)); */
+    background: url('https://media.istockphoto.com/photos/abstract-background-of-polygons-on-white-background-picture-id945690394?b=1&k=20&m=945690394&s=170667a&w=0&h=kt4dX_oU9GUxC9oMQPPzVCDWrZ6Y_rYkYAr3QS2mOV4=');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container
+{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid rgba(100, 97, 97, 0.645) ;
+    border-left: 1px solid rgba(100, 97, 97, 0.645);
+    padding: 20px;
+
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px black;
+
+    width: 400px;
+    height: 90vh;
+
+    
+}
+
+.container  > h1
+{
+    font-size: 2rem;
+
+    text-align: center;
+    padding-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#form
+{
+    padding: 5px;
+
+}
+
+.form-group
+{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+
+    height: 65px;
+}
+
+label
+{
+    position: relative;
+    bottom: 3px;
+}
+
+input
+{
+    width: 100%;
+    height: 34px;
+    padding: 5px;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: all .3s;
+}
+
+input:valid
+{
+    border: 1px solid green;
+    background-color: rgba(164, 222, 237, 0.138);
+}
+
+input:invalid
+{
+    border: 1px solid red;
+    background-color: rgba(240, 161, 161, 0.313);
+}
+
+button
+{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+button:hover
+{
+    cursor: pointer;
+    filter: brightness(200%);
+    background-color: rgb(16, 16, 16);
+}
+
+.message-container
+{
+    border: 1px solid black;
+    width: auto ;
+    height: 55px;
+    margin: 5px;
+
+    font-weight: 400;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}

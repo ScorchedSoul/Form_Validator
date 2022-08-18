@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM VALIDATOR</title>
+
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Sign Up Today!</h1>
+
+        <!-- FORM -->
+        <form action="" id="form">
+            <!-- full name -->
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+            </div>
+            <!-- phone number -->
+            <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="555-555-5555" maxlength="10" minlength="10">
+            </div>
+            <!-- email -->
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="xyz@email.com">
+            </div>
+            <!-- Website url -->
+            <div class="form-group">
+                <label for="website">Website Url</label>
+                <input type="url" id="website" placeholder="www.google.com">
+            </div>
+            <!-- password -->
+            <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" placeholder="Password">
+            </div>
+            <!-- confirm password -->
+            <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Password">
+            </div>
+            <!-- submit button -->
+            <button class="submit" type="submit">Register</button>
+        </form>
+
+        <!-- error/success message -->
+        <div class="message-container">
+            <h3 id="message">Don't hesitate!</h3>
+        </div>
+    </div>
+
+
+
+    <!-- JS FILE LINKED -->
+    <script src="./script.js"></script>
+</body>
+</html>
