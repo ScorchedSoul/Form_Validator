@@ -139,3 +139,46 @@ button:hover
     align-items: center;
     margin-bottom: 10px;
 }
+
+/* Responsive using media queries */
+
+@media only screen and (max-width: 430px)
+
+{
+
+    .container
+    {
+        width: 90%;
+        height: 100vh;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .container > h1
+    {
+        font-size: 1.5rem;
+        padding-bottom: 20px;
+    }
+
+    label
+    {
+        font-size: 0.8rem;
+    }
+
+    input::placeholder
+    {
+        font-size: 0.75rem;
+    }
+
+    button
+    {
+        font-size: 1.1rem;
+    }
+
+    .message-container
+    {
+        font-size: 1rem;
+    }
+
+}
+
