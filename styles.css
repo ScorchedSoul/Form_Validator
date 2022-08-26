@@ -37,14 +37,11 @@ body
     border-top: 1px solid rgba(100, 97, 97, 0.645) ;
     border-left: 1px solid rgba(100, 97, 97, 0.645);
     padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 
     border-radius: 5px;
     box-shadow: 2px 2px 8px black;
 
     width: 400px;
-    height: 100vh;
 
     
 }
@@ -149,10 +146,9 @@ button:hover
 
     .container
     {
-        width: 90%;
-        height: 90%;
-        margin-top: 5px;
-        margin-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 100vh;
     }
 
     .container > h1
